@@ -52,18 +52,18 @@
             label = "TO_LAYER_0";
         };
 
-        login_macro_1: password_macro {
+        login_macro_1: login_macro_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N7 &kp N1 &kp N7 &kp Y &kp K &kp H &kp A &kp LS(T) &kp M>;
+            label = "LOGIN_MACRO_1";
+        };
+
+        login_macro_2: login_macro_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp S &kp N1 &kp N2 &kp N2 &kp N3 &kp T &kp S>;
-            label = "PASSWORD_MACRO";
-        };
-
-        login_macro_2: password_macro_2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N7 &kp N1 &kp N7 &kp Y &kp K &kp J &kp H &kp A &kp LS(T) &kp M &kp N1>;
-            label = "PASSWORD_MACRO_2";
+            label = "LOGIN_MACRO_2";
         };
     };
 
