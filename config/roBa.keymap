@@ -58,18 +58,18 @@
             label = "LOGIN_MACRO_1";
         };
 
-        login_macro_3: login_macro_2 {
+        login_macro_3: login_macro_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp T &kp S &kp N1 &kp N2 &kp N2 &kp N3 &kp T &kp S &kp ENTER>;
-            label = "LOGIN_MACRO_2";
+            label = "LOGIN_MACRO_3";
         };
 
-        login_macro_2: login_macro_3 {
+        login_macro_2: login_macro_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_2 &kp N7 &kp N1 &kp N7 &kp Y &kp K &kp H &kp A &kp LS(T) &kp M &kp N1 &kp ENTER>;
-            label = "LOGIN_MACRO_3";
+            bindings = <&kp LANGUAGE_2 &kp N7 &kp N1 &kp N7 &kp Y &kp K &kp H &kp A &kp T &kp M &kp ENTER>;
+            label = "LOGIN_MACRO_2";
         };
     };
 
