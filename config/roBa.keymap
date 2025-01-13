@@ -114,6 +114,8 @@
 &kp N0     &kp N1        &kp N2  &kp N3  &kp MINUS  &kp SLASH      &none   &msc SCRL_DOWN  &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_LEFT  &mkp MB4
 &trans     &trans        &trans  &trans  &trans     &trans         &trans  &trans                                                         &none
             >;
+
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         ARROW {
