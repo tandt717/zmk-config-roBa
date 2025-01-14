@@ -120,10 +120,10 @@
 
         ARROW {
             bindings = <
-&login_macro_1  &kp F7  &kp F8  &kp F9  &kp F10                                &bt BT_SEL 0          &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3           &bt BT_SEL 4
-&login_macro_2  &kp F4  &kp F5  &kp F6  &kp F11  &none       &kp LS(LG(LEFT))  &kp LA(LS(LG(LEFT)))  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LA(LS(LG(RIGHT)))  &kp LS(LG(RIGHT))
-&login_macro_3  &kp F1  &kp F2  &kp F3  &kp F12  &none       &kp K_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP   &trans             &trans                 &none
-&none           &none   &none   &trans  &trans   &trans      &trans            &trans                                                                            &bt BT_CLR
+&login_macro_1  &kp F7  &kp F8  &kp F9  &kp F10                                    &bt BT_SEL 0          &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3           &bt BT_SEL 4
+&login_macro_2  &kp F4  &kp F5  &kp F6  &kp F11  &none       &kp LC(LS(LG(LEFT)))  &kp LA(LS(LG(LEFT)))  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LA(LS(LG(RIGHT)))  &kp LC(LS(LG(RIGHT)))
+&login_macro_3  &kp F1  &kp F2  &kp F3  &kp F12  &none       &kp K_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP   &trans             &trans                 &none
+&none           &none   &none   &trans  &trans   &trans      &trans                &trans                                                                            &bt BT_CLR
             >;
         };
 
