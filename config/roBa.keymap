@@ -115,12 +115,12 @@
             >;
         };
 
-        NUM {
+        Move {
             bindings = <
-&none      &kp N7        &kp N8  &kp N9  &kp ASTRK                         &kp PG_UP        &none           &kp UP        &none           &none
-&kp EQUAL  &kp NUMBER_4  &kp N5  &kp N6  &kp PLUS   &none          &none   &kp PG_DN        &kp LEFT        &kp DOWN      &kp RIGHT       &mkp MB5
-&kp N0     &kp N1        &kp N2  &kp N3  &kp MINUS  &kp SLASH      &none   &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_LEFT  &mkp MB4
-&trans     &trans        &trans  &trans  &trans     &trans         &trans  &trans                                                         &none
+&none   &none   &none   &none   &none                              &kp RC(UP_ARROW)  &kp LC(LEFT)    &kp UP        &kp LC(RIGHT)   &kp LC(DOWN)
+&none   &none   &none   &none   &none   &none       &kp PAGE_UP    &kp PG_DN         &kp LEFT        &kp DOWN      &kp RIGHT       &mkp MB5
+&none   &none   &none   &none   &none   &none       &kp PAGE_DOWN  &msc SCRL_RIGHT   &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_LEFT  &mkp MB4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                                          &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
