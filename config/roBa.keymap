@@ -99,10 +99,10 @@
 
         SYMBOLS {
             bindings = <
-&kp PERCENT  &kp DOLLAR  &kp HASH         &kp CARET     &kp TILDE                             &kp BACKSLASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
-&kp COMMA    &kp PERIOD  &kp EXCLAMATION  &kp QUESTION  &kp AT     &none              &none   &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI       &kp COLON
-&kp EQUAL    &kp PLUS    &kp MINUS        &kp ASTRK     &kp SLASH  &kp AMPERSAND      &none   &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT        &kp DOUBLE_QUOTES
-&trans       &trans      &trans           &trans        &trans     &trans             &trans  &trans                                                                      &kp LC(SEMICOLON)
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH         &kp DOLLAR    &kp PERCENT                                    &kp AMPERSAND  &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&kp COMMA        &kp PERIOD         &kp EXCLAMATION  &kp QUESTION  &kp AT       &none              &none          &kp AT_SIGN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE
+&kp EQUAL        &kp PLUS           &kp MINUS        &kp ASTRK     &kp SLASH    &kp AMPERSAND      &kp SEMICOLON  &kp COLON      &kp COMMA         &kp PERIOD            &kp QUESTION           &kp UNDERSCORE
+&trans           &trans             &trans           &trans        &trans       &trans             &trans         &trans                                                                        &kp LC(SEMICOLON)
             >;
         };
 
